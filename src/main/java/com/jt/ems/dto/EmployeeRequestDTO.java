@@ -9,7 +9,6 @@ import java.util.Date;
 public record EmployeeRequestDTO(
         @NotNull
         long employeeId,
-
         @NotNull
          String employeeFirstName,
         @NotNull
