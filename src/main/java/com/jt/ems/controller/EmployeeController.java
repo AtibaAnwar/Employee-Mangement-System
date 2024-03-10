@@ -15,7 +15,6 @@ public class EmployeeController {
     @PostMapping("/{add}")
     public Employee addEmployee(@RequestBody Employee employee){
         return employeeService.addEmployee(employee);
-
     }
     @GetMapping("/byLastName/{lastName}")
     public Employee getEmployeesByLastName(@PathVariable String lastName) {
